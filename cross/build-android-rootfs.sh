@@ -38,6 +38,11 @@ for i in "$@"
             __AndroidArch=aarch64
             __AndroidToolchain=aarch64-linux-android
             ;;
+        x86)
+            __BuildArch=x86
+            __AndroidArch=i686
+            __AndroidToolchain=i686-linux-android
+            ;;
         arm)
             __BuildArch=arm
             __AndroidArch=arm
